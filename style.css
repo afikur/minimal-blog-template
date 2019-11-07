@@ -3,6 +3,9 @@ body {
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   margin-top: 100px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #3d455c;
 }
 
 /* header start ------------------------------------------- */
@@ -169,4 +172,9 @@ a.post-image img {
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
   text-decoration: none;
+}
+
+footer {
+  padding: 3rem;
+  text-align: center;
 }
