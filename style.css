@@ -233,6 +233,10 @@ footer {
   padding: 5px 0;
 }
 
+.menubar-widget ul li:last-child a {
+  padding-bottom: 0;
+}
+
 .category-widget ul li > a > span {
   float: right;
   color: #fff;
