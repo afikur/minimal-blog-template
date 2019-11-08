@@ -202,23 +202,31 @@ footer {
   margin-top: 2rem;
 }
 
-.category-widget ul {
+.category-widget ul,
+.menubar-widget ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.category-widget ul li {
+.category-widget ul li,
+.menubar-widget ul li {
   display: block;
   padding-bottom: 10px;
   border-bottom: 1px solid #fceef2;
 }
 
-.category-widget ul li:last-child {
+.menubar-widget ul li {
+  border-bottom: none;
+}
+
+.category-widget ul li:last-child,
+.menubar-widget ul li:last-child {
   border-color: transparent;
 }
 
-.category-widget ul li a {
+.category-widget ul li a,
+.menubar-widget ul li a {
   text-decoration: none;
   font-weight: 400;
   display: block;
@@ -232,4 +240,8 @@ footer {
   padding: 0 5px;
   font-weight: 600;
   border-radius: 2px;
+}
+
+.menubar-widget ul li ul {
+  padding-left: 2rem;
 }
