@@ -195,3 +195,41 @@ footer {
   padding: 3rem;
   text-align: center;
 }
+
+/* ----------------------------------------------- */
+
+.widget-body {
+  margin-top: 2rem;
+}
+
+.category-widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-widget ul li {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fceef2;
+}
+
+.category-widget ul li:last-child {
+  border-color: transparent;
+}
+
+.category-widget ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  padding: 5px 0;
+}
+
+.category-widget ul li > a > span {
+  float: right;
+  color: #fff;
+  background-color: #212631;
+  padding: 0 5px;
+  font-weight: 600;
+  border-radius: 2px;
+}
