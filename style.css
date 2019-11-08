@@ -153,8 +153,7 @@ a.post-image img {
 }
 
 .post .post-meta {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 .post-title a {
