@@ -8,6 +8,10 @@ body {
   color: #3d455c;
 }
 
+a {
+  color: #000;
+}
+
 /* header start ------------------------------------------- */
 .header {
   position: fixed;
@@ -129,8 +133,8 @@ body {
 /* end of header ------------------------------------------- */
 
 section.featured-posts {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 a.post-image img {
@@ -140,6 +144,10 @@ a.post-image img {
 .post .post-meta {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.post-title a {
+  text-decoration: none;
 }
 
 .post.post-row:after {
@@ -172,6 +180,15 @@ a.post-image img {
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
   text-decoration: none;
+}
+
+.single-post .post-content {
+  margin-top: 3.5rem;
+}
+
+.single-post-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 footer {
