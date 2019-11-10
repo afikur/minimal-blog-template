@@ -5,7 +5,7 @@ body {
   margin-top: 100px;
   font-size: 16px;
   font-weight: 300;
-  color: #3d455c;
+  color: #333;
   background: #e9ebee;
 }
 
@@ -19,7 +19,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: #212631;
+  background: #262626;
   z-index: 10000;
   height: 100px;
   overflow: hidden;
@@ -135,8 +135,25 @@ a {
 /* end of header ------------------------------------------- */
 
 section.featured-posts {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section.featured-posts h1 {
+  padding-left: 2.5rem;
+  position: relative;
+}
+
+section.featured-posts h1::after {
+  content: "";
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  background: url("pin.svg");
+  position: absolute;
+  left: 0;
+  top: -5px;
+  background-size: contain;
 }
 
 @media only screen and (max-width: 48rem) {
