@@ -183,23 +183,6 @@ section.featured-posts {
   padding-bottom: 1rem;
 }
 
-section.featured-posts h1 {
-  padding-left: 2.5rem;
-  position: relative;
-}
-
-section.featured-posts h1::after {
-  content: "";
-  width: 2.5rem;
-  height: 2.5rem;
-  display: block;
-  background: url("pin.svg");
-  position: absolute;
-  left: 0;
-  top: -5px;
-  background-size: contain;
-}
-
 @media only screen and (max-width: 48rem) {
   section.featured-posts {
     padding-top: 1.5rem;
