@@ -1,4 +1,4 @@
-var cbpAnimatedHeader = (function () {
+var cbpAnimatedHeader = (function() {
   var docElem = document.documentElement,
     header = document.querySelector(".header"),
     didScroll = false,
@@ -8,7 +8,7 @@ var cbpAnimatedHeader = (function () {
     scrollPage();
     window.addEventListener(
       "scroll",
-      function (event) {
+      function(event) {
         if (!didScroll) {
           didScroll = true;
           setTimeout(scrollPage, 250);
