@@ -225,6 +225,31 @@ footer {
   text-align: center;
 }
 
+footer .logo {
+  position: relative;
+}
+
+footer .logo::before {
+  content: "";
+  width: calc(33.333333% - 40px);
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  display: block;
+  top: 15px;
+  left: 0;
+}
+
+footer .logo::after {
+  content: "";
+  width: calc(33.333333% - 40px);
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  display: block;
+  top: 15px;
+  right: 0;
+}
 /* ----------------------------------------------- */
 
 .sidebar-widget {
