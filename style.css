@@ -126,7 +126,6 @@ a {
 }
 
 @media screen and (max-width: 24em) {
-
   .header nav a,
   .header.header-shrink nav a {
     line-height: 1;
@@ -142,6 +141,8 @@ section.featured-posts {
 
 a.post-image img {
   width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 .post-body {
@@ -267,7 +268,7 @@ footer {
   padding-bottom: 0;
 }
 
-.category-widget ul li>a>span {
+.category-widget ul li > a > span {
   float: right;
   color: #fff;
   background-color: #212631;
@@ -278,4 +279,10 @@ footer {
 
 .menubar-widget ul li ul {
   padding-left: 2rem;
+}
+
+@media only screen and (max-width: 48rem) {
+  .post {
+    margin-bottom: 1.5rem;
+  }
 }
