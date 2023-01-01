@@ -17,6 +17,6 @@
   "devDependencies": {
     "cssnano": "^4.1.10",
     "lite-server": "^2.5.4",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
